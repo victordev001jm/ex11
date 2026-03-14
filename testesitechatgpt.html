@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portal de Vaquejada</title>
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family: Arial;
+background:#f4f4f4;
+margin:0;
+}
+
+nav{
+background:#111;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+font-size:20px;
+text-decoration:none;
+margin:0 20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+section{
+padding:60px 20px;
+}
+
+h1{
+text-align:center;
+}
+
+.grade-videos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.video{
+background:white;
+padding:10px;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+iframe{
+width:100%;
+height:200px;
+}
+
+.grade-eventos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.evento{
+background:white;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+.evento img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.evento h3{
+margin:10px;
+}
+
+.evento p{
+margin:0 10px 10px;
+color:#555;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#videos">Videos</a>
+<a href="#agenda">Agenda</a>
+</nav>
+
+<section id="inicio">
+
+<h1>Maiores e Melhores Vaquejadas Você encontra aqui</h1>
+
+</section>
+
+<section id="videos">
+
+<h2>Últimas Vaquejadas</h2>
+
+<div class="grade-videos">
+
+<div class="video">
+<iframe src="https://www.youtube.com/embed/b6a1xNgwOMs" allowfullscreen></iframe>
+<p>Agro CPMF Pilar - AL</p>
+</div>
+
+<div class="video">
+<iframe src="https://www.youtube.com/embed/lwitBD2HNtU" allowfullscreen></iframe>
+<p>Palmery Soriano Cajueiro - AL</p>
+</div>
+
+<div class="video">
+<iframe src="https://www.youtube.com/embed/b6a1xNgwOMs" allowfullscreen></iframe>
+<p>Vaquejada Profissional</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="agenda">
+
+<h2>Próximas Vaquejadas</h2>
+
+<div class="grade-eventos">
+
+<div class="evento">
+<img src="imagens/wm4a8.png">
+<h3>Vaquejada Parque WM</h3>
+<p>04 a 08 de março</p>
+</div>
+
+<div class="evento">
+<img src="imagens/diamante18a22.png">
+<h3>Diamante Park Show</h3>
+<p>18 a 22 de março</p>
+</div>
+
+<div class="evento">
+<img src="imagens/evanioh25a29.png">
+<h3>Parque Evânio Higino</h3>
+<p>25 a 29 de março</p>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>

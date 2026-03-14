@@ -1,0 +1,52 @@
+*{
+ color: red;
+ margin: 5px;
+ padding: 0px;
+ box-sizing: border-box;
+
+}
+
+body{
+
+    background: white;
+    color: black;
+    padding: 10px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+font-size: 30px;
+color: aqua;
+font-weight: bold;
+}
+span{
+    color: rgb(0, 255, 64);
+}
+p{
+    color: blue;
+    margin:  10px;
+}
+
+textarea {
+resize: none;
+width: 100%;    /* Largura */
+max-width: 640px;
+padding: 16px;  /* espaçamento */
+border: 5px solid rgb(15, 64, 128);   /* Trocar A cor da borda */
+border-radius: 10px;
+background: rgba(9, 11, 126, 0);  /* cor de fundo */
+color: green;
+outline: none;
+}
+button{
+    max-width: 640px;
+    width: 100%;
+    height: 30px;
+    background: rgb(106, 255, 47);
+    border-radius: 10px;  /* arredonda a borda */
+    cursor: pointer;  /* o mouse fica com uma mão ao chegar perto do butão */
+
+}
+
+
