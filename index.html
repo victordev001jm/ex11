@@ -6,21 +6,42 @@
     <title>Document</title>
     <style>
         *{
-            text-align: center;
+            text-align: center;  /* DEIXA O TEXTO CENTRALIZADO */
         }
 
         body{
-    background-color:rgba(255, 0, 0, 0.486)
+            background-color:rgba(255, 0, 0, 0.486)
     }
+        nav{
+            display: flex;
+            justify-content: center;     /* vai      centralizar na horizontal */
+            gap: 100px;
+            margin: 0px;
+            font-size: 25px;
+            font-weight:bold;
+            background-color: black;
+            }
+
+            nav a{
+                color:white;
+            }
+             nav a:hover{
+                color: yellow;
+             }
+            
+            
+    
+
 
         .videos{
-            display: grid;
-            grid-template-columns:repeat(2, 1fr);
+            display: grid;  /* O display: grid  transforma um elemento em um contêiner de grade, permitindo organizar seus filhos em linhas e colunas. */
+            grid-template-columns:repeat(2, 1fr); /* é usada para organizar elementos em linhas e colunas, nesse caso os videos. O repeat(2, 1fr) significa que queremos criar 2 colunas de largura igual (1fr cada). */
             gap: 20px;
-            justify-content:center;
-            align-items: center;
+            justify-content:center; /* centraliza os itens horizontalmente dentro do contêiner de grade */
+            align-items: center; /* Alinha os itens verticalmente ao centro, tem que esta dentro do display grid */
             max-width:900px;
             margin:auto;
+            
         }
         .videos iframe{
             width:100% ;
@@ -35,16 +56,32 @@
     
 </head>
 <body>
+     <nav>
+    <a href="inicio">Inicio</a>
+    <a href="agenda">Agenda</a>
+    <a href="videos">Videos</a>
+
+
+     </nav>
+
+
+
+
+
      <h1>teste de centralização</h1>
-     <h1> videos legais para assistir</h1>
+     <h1> Videos Do Canal Manda Boi Curral <a href="#">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" width="100px">
+</a>
+</h1>
 
 
      
     <div class="videos">
     
-    <iframe src="https://www.youtube.com/embed/b6a1xNgwOMs" frameborder="0"></iframe>
+    <iframe src="https://www.youtube.com/embed/ b6a1xNgwOMs" frameborder="0"></iframe>
+    
 
-    <iframe src="https://www.youtube.com/embed/b6a1xNgwOMs" target="_blank" rel="external"><iframe> frameborder="0"></iframe>
+    <iframe src="https://www.youtube.com/embed/b6a1xNgwOMs"frameborder="0"></iframe>
     
     <iframe src="https://www.youtube.com/embed/b6a1xNgwOMs"frameborder="0"></iframe>
     
